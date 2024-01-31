@@ -57,12 +57,6 @@ from film
 group by rating; -- G: 178, PG: 194, PG-13: 223, NC-17: 210, R: 195
 
 -- 7.Show all customers who have made a single payment above $6.99 (Use Subqueries)
-select *
-from customer
-
-select *
-from payment
-
 select first_name, last_name
 from customer
 where customer_id in (
